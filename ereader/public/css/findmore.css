@@ -1,0 +1,241 @@
+
+body 
+{ 
+	font-family: 'Goudy Bookletter 1911', serif;
+	color: #0a0a0a; 
+	background-color: #374659;
+    background-repeat: no-repeat;
+    font-size: calc(2vh + 2vw);
+}
+
+a
+{
+	color: inherit;
+}
+
+.site-wrapper 
+{
+	  height: 100%;
+}
+
+.left-bar {
+	position: absolute;
+    width: 70px;
+    height: 102vh;
+    float:left;
+    margin-left: -10px;
+    margin-top: -7vh;
+    background-color: #222D3A;
+    padding-top: 1vh;
+}
+
+
+.icons
+{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.page-heading
+{
+	font-size: calc(2.5vh + 2.5vw);
+	text-align: center;
+	padding-top: 1%;
+	margin-top: -95vh;
+	color: #e7b871;
+}
+
+.first
+{
+	font-size: calc(1.25vh + 1.25vw);
+}
+h5
+{
+	font-size: 18px;
+	color: #CCCCCC;
+}
+
+h4
+{
+	font-size: 20px;
+	color: #CCCCCC;
+}
+
+h3
+{
+	font-size: 20px; /*weighting the height more than the width helps keep the full page on the screen in a few more cases*/
+}
+
+h2
+{
+	color: #e7b871;
+	font-size: 20px;
+}
+
+
+#epic1
+{
+	margin-left: 10%;
+	margin-top: -1%
+}
+
+#pic1cap
+{
+	margin-left: 25%;
+	margin-top: -2%;
+}
+
+#sky
+{
+	margin-left: 10%;
+	margin-top: -1%
+}
+
+#pic2cap
+{
+	margin-left: 66%;
+	margin-top: -24%;
+}
+
+#art
+{
+	margin-left: 55%;
+	margin-top: -1%;
+	width: 32%;
+
+}
+
+#pic3cap
+{
+	margin-left: 22%;
+}
+
+#politics
+{
+	margin-left: 11.5%;
+	margin-top: -1%
+}
+
+#pic4cap
+{
+	margin-left: 63%;
+	margin-top: -29.5%;
+}
+
+#tourists
+{
+	margin-left: 54%;
+	margin-top: -1%
+}
+
+.page
+{
+	margin-top: 5vh;
+	/*margin-bottom: 5vh;*/
+	width: 70px;
+	height: 90vh;
+	margin-left: calc(100% - 62px);
+	background-color: #D6d6d6;
+	text-align: center;
+}
+
+#arrow1
+{
+	margin-top: 25vh;
+	margin-left: 35%;
+}
+
+#pagenumber
+{
+	margin-top: 22vh;
+}
+
+#morechoices
+{
+	background-color: #5d7898;
+	margin-left: 10%;
+	margin-top: -4%;
+	width: 78%;
+	height:70px;
+	padding-left: 2%;
+}
+
+#choicetitle
+{
+	text-align: justify;
+	width: 15%;
+	padding-bottom: 1%
+}
+
+button
+{
+	    background-color: #222D3A;
+	    border-style: none;
+	    border: none;
+	    outline: none;
+	    margin-left: 15%;
+}
+
+#fontbox
+{
+	position: absolute;
+	background-color: #2B394A;
+	margin-left: 80%;
+	margin-top: -60%;
+	padding-top: 15%;
+	padding-bottom: 10%;
+	width: 150%;
+}
+
+#fontbox ul
+{
+	list-style-type: none;
+	display: inline;
+	margin-left: -30%;
+}
+
+#fontbox li
+{
+	list-style: none;
+	display: inline;
+		padding-left: 10px;
+}
+#fontbox li:hover
+{
+	content: url("../icons/xcolor.png");
+}
+
+#morechoices ul
+{
+	list-style-type: none;
+	display: block;
+	margin-left: 5%;
+	margin-top: -13.5%;
+	text-align: center;
+	background-color: #5d7898;
+}
+
+#morechoices li
+{
+	float: left;
+	padding-left: 8%;
+
+}
+
+li#small
+{
+	width: 10px;
+	height: 10px;
+}
+
+li#med
+{
+	width:15px;
+	height: 15px;
+}
+
+li#big
+{
+	width:20px;
+	height: 20px;
+}

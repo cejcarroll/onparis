@@ -1,0 +1,190 @@
+
+body 
+{ 
+	font-family: 'Goudy Bookletter 1911', serif;
+	color: #0a0a0a; 
+	background-color: #374659;
+    background-repeat: no-repeat;
+    font-size: calc(2vh + 2vw);
+}
+
+
+.site-wrapper 
+{
+	  height: 100%;
+}
+
+.left-bar {
+	position: absolute;
+    width: 70px;
+    height: 120%;
+    float:left;
+    margin-left: -10px;
+    margin-top: -1%;
+    background-color: #222D3A;
+    padding-top: 1vh;
+}
+.icons
+{
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+#arrow1
+{
+	margin-left: 48%;
+	margin-top: .5%;
+}
+
+#arrow2
+{
+	margin-left: 48%;
+	margin-bottom: 0.5%;
+}
+
+.page
+{
+	margin-top: -13%;
+	/*margin-bottom: 5vh;*/
+	width: 60%;
+	margin-left: 20%;
+	background-color: #D6d6d6;
+}
+
+#title
+{
+	padding-left: 10px;
+}
+
+.page-heading
+{
+	font-size: calc(1vh + 1vw);
+	text-align: center;
+	padding-top: 1%;
+}
+
+.first
+{
+	font-size: calc(1.25vh + 1.25vw);
+}
+
+h3
+{
+	font-size: calc(1vh + .6vw); /*weighting the height more than the width helps keep the full page on the screen in a few more cases*/
+}
+
+#pagetext
+{
+	margin-left: 4vw;
+	margin-right: 4vw;
+	text-align: justify;
+	margin-top: -2%;
+}
+
+#Charles
+{
+	margin-left: 24%;
+	margin-top: -25%;
+}
+
+#cpicsub
+{
+	padding-left: 10px;
+	margin-top: 0%;
+}
+
+#letter
+{
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 5%;
+	text-align: justify;
+}
+
+#construction
+{
+	margin-right: 30%;
+}
+
+#cgpic
+{
+	/*padding-bottom: 5%; */
+	margin-left: 0%;
+	margin-top: -5%;
+}
+
+#epic
+{
+	margin-left: 75%;
+	margin-top: -30%;
+	padding-bottom: 5%;
+}
+
+#pgnumber
+{
+	font-size: calc(1.1vh + .8vw); 
+	margin-left: 47.5%;
+	margin-top: -10%;
+	padding-bottom: 3%;
+}
+
+button
+{
+	    background-color: #222D3A;
+	    border-style: none;
+	    border: none;
+	    outline: none;
+	    margin-left: 15%;
+}
+
+#fontbox
+{
+	display: none;
+	margin-left: 80%;
+	margin-top: -60%;
+	padding-top: 15%;
+	position: absolute;
+	padding-bottom: 10%;
+	width: 150%;
+}
+
+#fontbox:active {
+	background-color: #2B394A;
+}
+
+#fontbox:active ul
+{
+	list-style-type: none;
+	display: inline;
+	margin-left: -30%;
+}
+
+#fontbox:active li
+{
+	list-style: none;
+	display: inline;
+		padding-left: 10px;
+}
+#fontbox:active li:hover
+{
+	content: url("../icons/xcolor.png");
+}
+
+li#small
+{
+	width: 10px;
+	height: 10px;
+}
+
+li#med
+{
+	width:15px;
+	height: 15px;
+}
+
+li#big
+{
+	width:20px;
+	height: 20px;
+}

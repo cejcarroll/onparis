@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--home page 
+*Claire Carroll
+*The User Interface
+*David Gerlernter
+*Disclaimer: I've never really properly learned/been taught HTML, so some of my fixes/hacks are pretty awful and unscalable. Mea culpa. 
+*Please do not let the lack of beauty in my code detract from the beauty of the eBook. -->
+
+
+<html lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+    <!-- <link href='../css/flatui/flat-ui.css' rel='stylesheet' type='text/css' -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Main Page">
+    <meta name="author" content="Claire Carroll">
+    <!--<link rel="icon" href="../images/fav-icon.ico"> -->
+
+    <title>eBook</title>
+
+    <link href="../css/main.css" rel="stylesheet"> <!--eventually this will exist -->
+    <script src="../js/textincrease.js"> </script>
+
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+         <div class="left-bar">
+            <div class="icons"> <img src="../icons/menu.png" style="width:30px;height:30px"> </div>
+            <div class="icons"> <img src="../icons/bookicon.png" style="width:30px;height:30px"> </div>
+             <button ><div class="icons" id="textsize"> <img src="../icons/textsizeicon.png" style="width:38px;height:38px"> </div> </button>
+                 <div id="fontbox">
+                    <ul class="font_menu">
+                        <li id="small"> <img src="../icons/x.png" style="width:10px;height:10px"></li>
+                        <li id="med"> <img src="../icons/x.png" style="width:15px;height:15px"></li>
+                        <li id="big"> <img src="../icons/x.png" style="width:20px;height:20px"></li> 
+                    </ul>
+                  </div> 
+              <div class="icons"> <img src="../icons/brightness2.png" style="width:40px;height:40px"> </div>
+               <div class="icons"> <img src="../icons/search.png" style="width:30px;height:30px"> </div>
+         </div>
+           <svg id="arrow1">
+              <polygon points="12.5,0 0,25 25,25" style="fill:#707273;"></polygon>
+          </svg>
+         <div class="page">
+            <h1 class="page-heading"><span class='first'>O</span>N <span class='first'>P</span>ARIS</h1>
+            <div id="pagetext">
+            <h3><p id='proposed'>&nbsp;&nbsp;&nbsp;&nbsp;The proposed tower had been a subject of controversy, drawing criticism from those who did not believe it was feasible and those who objected on artistic grounds. These objections were an expression of a long-standing debate in France about the relationship between architecture and engineering. It came to a head as work began at the Champ de Mars: a "Committee of Three Hundred" (one member </p>
+            <br>
+            <img id="cgpic" src="../imgs/charlesgarnier.jpg" style="width:20%;height:18%">
+                                   <!-- <p id-"cpicsub"><i>Charles Garnier</i></p> -->
+            <p id="Charles"> for each metre of the tower's height) was formed, led by the prominent architect Charles Garnier and including some of the most important figures of the arts, such as Adolphe Bouguereau and Jules Massenet. A petition called "Artists against the Eiffel Tower" was sent to the Minister of Works and Commissioner for the Exposition, Charles Alphand, and it was published by <i>Le Temps</i> on 14 February 1887: </p>
+            <p id="letter">We, writers, painters, sculptors, architects and passionate devotees of the hitherto untouched beauty of Paris, protest with all our strength, with all our indignation in the name of slighted French taste, against this useless and monstrous Eiffel Tower […] Imagine for a moment a giddy, ridiculous tower dominating Paris like a gigantic black smokestack, crushing under its barbaric bulk Notre Dame, the Louvre, the Dome of les Invalides, the Arc de Triomphe, all of our humiliated monuments will disappear in this ghastly dream. We shall see stretching like a blot of ink the hateful shadow of the hateful column of bolted sheet metal.</p>
+            <p id="construction">&nbsp;&nbsp;&nbsp;&nbsp;Gustave Eiffel responded to these criticisms by comparing his tower to the Egyptian pyramids: "My tower will be the tallest edifice ever erected by man. Will it not also be grandiose in its way? And why would something admirable in Egypt become hideous and ridiculous in Paris?" These criticisms were also dealt with by Édouard Lockroy in an ironic letter of support for the artists, where he condemned the efforts as moot since construction had already begun and the matter decided.</p>
+            <a href="./construction.html"><img id="epic" src="../imgs/eiffelconstruction.jpg" style="width:40%;height:40%"></a>
+            <p id="pgnumber">47</p>
+            </h3>
+            </div>
+         </div>
+         <svg id="arrow2">
+              <polygon points="0,0 12.5,25 25,0" style="fill:#707273;"></polygon>
+        </svg>
+    </div>
+  </body>
+</html>
